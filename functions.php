@@ -18,7 +18,7 @@ function writeMsg() {  // یک نمونه از فانکشن که بعد کلمه
   familyName("Kai Jim");
   familyName("Borge");
 #_________________________________________
-function familyName($fname, $year) {      // یک نمونه از فانکشن که دوتا آرگومان ورودی میگیرد
+function familyName($fname, $year) {      /* یک نمونه از فانکشن که دوتا آرگومان ورودی میگیرد*/
     echo "$fname Refsnes. Born in $year <br>";
   }
   
