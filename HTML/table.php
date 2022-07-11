@@ -25,7 +25,6 @@
             font-size: 35px;
             color: rgb(39, 39, 39);
             padding: 20px;
-
         }
         h1{
             color: black;
@@ -37,7 +36,9 @@
 <body>
     <h1>Members of the Khurshid programmers team</h1>
     <table>
-        <tr>
+        <?php
+        for ($x = 0; $x <= 100; $x+=10) {
+            echo "<tr>
             <th>
                 name
             </th>
@@ -58,29 +59,13 @@
             <td>
                 33
             </td>
-        </tr>
-        <tr>
-            <td>
-                Mahan
-            </td>
-            <td>
-                Homayouni
-            </td>
-            <td>
-                15
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Amir Hossien
-            </td>
-            <td>
-                Jafari
-            </td>
-            <td>
-                15
-            </td>
-        </tr>
+        </tr>";
+          }
+
+
+
+
+        ?>
     </table>
 </body>
 </html>

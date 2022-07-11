@@ -25,7 +25,6 @@
             font-size: 35px;
             color: rgb(39, 39, 39);
             padding: 20px;
-
         }
         h1{
             color: black;
@@ -48,39 +47,21 @@
                 age
             </th>
         </tr>
-        <tr>
-            <td>
-                MR.Javad
-            </td>
-            <td>
-                nasrollahi
-            </td>
-            <td>
-                33
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Mahan
-            </td>
-            <td>
-                Homayouni
-            </td>
-            <td>
-                15
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Amir Hossien
-            </td>
-            <td>
-                Jafari
-            </td>
-            <td>
-                15
-            </td>
-        </tr>
+        <?php  //در اینجا یک حلقه تعیین کردین و گفتین تا پنج بار اکو بکن از لیست و خروجی میشه پنج بار پرینت از جدول زیر
+            for ($i=0; $i < 5; $i++) { 
+                echo "<tr>
+                <td>
+                    MR.Javad
+                </td>
+                <td>
+                    nasrollahi
+                </td>
+                <td>
+                    33
+                </td>
+            </tr>";
+            }
+        ?>
     </table>
 </body>
 </html>

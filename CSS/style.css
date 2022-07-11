@@ -1,0 +1,35 @@
+.un{
+    border: 1px solid gray;
+    border-radius: 50px;
+    width: 500px;
+    height: 65px;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.up{
+    border-radius: 50px;
+    width: 500px;
+    height: 65px;
+    border: 1px solid gray;
+    font-size: 20px;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right , rgba(212, 65, 200, 0.692) , rgb(43, 241, 255)) ;
+    text-align: center;
+    font-size: 50px;
+    color: darkblue;
+}
+.us{
+    border: 1px solid rgb(29, 255, 255);
+    border-radius: 50px;
+    width: 200px;
+    height: 65px;
+    font-size: 30px;
+    background-image: linear-gradient(orange ,yellow);
+    color: blueviolet;
+    font-size: 35px;
+
+}
