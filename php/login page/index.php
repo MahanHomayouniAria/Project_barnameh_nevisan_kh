@@ -9,7 +9,7 @@
     
 </head>
 <body>
-    <form action="login.php" method="get"> <br>  <br> 
+    <form action="login.php" method="$_GET"> <br>  <br> 
     <label for="username" >Enter your name</label> <br> <br> 
     <input type="text" name="username" class="un"> <br> <br> 
     <label for="pass">Enter your password</label> <br> <br> 

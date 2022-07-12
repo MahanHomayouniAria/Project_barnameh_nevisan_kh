@@ -7,11 +7,11 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="/login.php" method="$_GET">
+    <form action="login.php" method="$_GET">
         <label for="">نام کاربری خود را وارد کنید</label> <br>
-        <input type="text"> <br>
+        <input type="text" name="username"> <br>
         <label for="">رمز ورود خود را وارد کنید</label> <br>
-        <input type="password"> <br>
+        <input type="password" name="password"> <br>
         <button type="submit">ارسال</button> <br>  
 
     </form>
