@@ -1,15 +1,12 @@
 <?php
-if(in_array( ["Javad" , "Mahan" , "Amir"] , $_GET["username"] , TRUE)){
-    echo "شما وارد شدید";
+
+$username = $_GET["username"];
+$userpass = $_GET["password"];
+
+$arr = array("Javad" , "Mahan" , "Amir Hossien");
+if(in_array($username , $arr) && $userpass == 123456){
+    echo "وارد شدید";
 }else{
-    echo "نام کاربری صحیح نیست";
+    echo "خطا در ورود";
 }
-if(in_array([123456] , $_GET["password"] , TRUE)){
-    echo "پسورد صحیح است";
-
-}else{
-    echo "پسورد وارد شده غلط است";
-}
-
-
 ?>
