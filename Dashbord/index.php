@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+if(isset($_SESSION["username"] /*&& $_SESSION["password"]*/)){
+    header("location: dashbord.php");
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
