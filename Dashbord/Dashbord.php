@@ -1,3 +1,5 @@
 <?php
-echo "Dashbord";
+
+
+echo "dashbord";
 ?>
