@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,10 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> my blog</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<form action="savepost.php"></form>
-<input name="title" placeholder="عنوان مطلب را وارد کنید">
-<textarea name="content"> </textarea>
+<form action="savepost.php">
+    <input name="title" placeholder="عنوان مطلب را وارد کنید" class="input"><br>
+    <br>
+    <br>
+    <textarea name="content" class="textarea"> </textarea>
+    <br>
+    <br>
+    <button type="submit">ثبت بلاگ</button>
+</form>
 </body>
 </html>

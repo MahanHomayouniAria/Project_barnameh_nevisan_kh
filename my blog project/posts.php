@@ -11,7 +11,7 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "SELECT title, content FROM myblog";
+$sql = "SELECT id, title, content FROM myblog";
 $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
