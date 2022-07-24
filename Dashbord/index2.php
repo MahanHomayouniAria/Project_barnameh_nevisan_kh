@@ -6,7 +6,8 @@ $userpass = $_GET["password"];
 
 $arr = array("Javad" , "Mahan" , "Amir Hossien");
 if (in_array($username , $arr) && $userpass == 123456) {
-    echo "ورود";
+    // header(location:"dashbord.php");
+    header("location: dashbord.php");
    $_session["username"]= $username;
    $_session["password"]= $userpass;
     // header("location: dashbord.php");
